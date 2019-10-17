@@ -1,0 +1,38 @@
+import tugasImport
+
+def main():
+	w = 20
+	t = 5
+	
+	daya = tugasImport.menghitungDaya(w, t)
+	
+	print("MENGHITUNG DAYA")
+	print("usaha\t :", w)
+	print("waktu\t :", t)
+	print("daya\t :", daya)
+
+	f = 30
+	s = 6
+	
+	usaha = tugasImport.menghitungUsaha(f, s)
+	
+	print("MENGHITUNG USAHA DAN ENERGI")
+	print("gaya\t :", f)
+	print("jarak\t :", s)
+	print("usaha\t :", usaha) 
+	
+	b = 20
+	i = 10
+	l = 5
+	
+	lorentz = tugasImport.Gayalorents(b, i, l)
+	
+	print("Menghitung gaya lorentz")
+	print("Kuat medan magnet\t :", b)
+	print("Kuat arus listrik\t :", i)
+	print("Panjang kawat\t :", l)
+	print("Gaya lorentz\t :", lorentz)
+	
+	
+if __name__== "__main__":
+	main()
